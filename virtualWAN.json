@@ -1,0 +1,14 @@
+{
+  "name": "string",
+  "type": "Microsoft.Network/virtualWans",
+  "apiVersion": "2020-05-01",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "disableVpnEncryption": "boolean",
+    "allowBranchToBranchTraffic": "boolean",
+    "allowVnetToVnetTraffic": "boolean",
+    "office365LocalBreakoutCategory": "string",
+    "type": "string"
+  }
+}

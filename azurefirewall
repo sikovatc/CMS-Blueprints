@@ -1,0 +1,172 @@
+{
+  "name": "string",
+  "type": "Microsoft.Network/azureFirewalls",
+  "apiVersion": "2020-05-01",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "applicationRuleCollections": [
+      {
+        "id": "string",
+        "properties": {
+          "priority": "integer",
+          "action": {
+            "type": "string"
+          },
+          "rules": [
+            {
+              "name": "string",
+              "description": "string",
+              "sourceAddresses": [
+                "string"
+              ],
+              "protocols": [
+                {
+                  "protocolType": "string",
+                  "port": "integer"
+                }
+              ],
+              "targetFqdns": [
+                "string"
+              ],
+              "fqdnTags": [
+                "string"
+              ],
+              "sourceIpGroups": [
+                "string"
+              ]
+            }
+          ]
+        },
+        "name": "string"
+      }
+    ],
+    "natRuleCollections": [
+      {
+        "id": "string",
+        "properties": {
+          "priority": "integer",
+          "action": {
+            "type": "string"
+          },
+          "rules": [
+            {
+              "name": "string",
+              "description": "string",
+              "sourceAddresses": [
+                "string"
+              ],
+              "destinationAddresses": [
+                "string"
+              ],
+              "destinationPorts": [
+                "string"
+              ],
+              "protocols": [
+                "string"
+              ],
+              "translatedAddress": "string",
+              "translatedPort": "string",
+              "translatedFqdn": "string",
+              "sourceIpGroups": [
+                "string"
+              ]
+            }
+          ]
+        },
+        "name": "string"
+      }
+    ],
+    "networkRuleCollections": [
+      {
+        "id": "string",
+        "properties": {
+          "priority": "integer",
+          "action": {
+            "type": "string"
+          },
+          "rules": [
+            {
+              "name": "string",
+              "description": "string",
+              "protocols": [
+                "string"
+              ],
+              "sourceAddresses": [
+                "string"
+              ],
+              "destinationAddresses": [
+                "string"
+              ],
+              "destinationPorts": [
+                "string"
+              ],
+              "destinationFqdns": [
+                "string"
+              ],
+              "sourceIpGroups": [
+                "string"
+              ],
+              "destinationIpGroups": [
+                "string"
+              ]
+            }
+          ]
+        },
+        "name": "string"
+      }
+    ],
+    "ipConfigurations": [
+      {
+        "id": "string",
+        "properties": {
+          "subnet": {
+            "id": "string"
+          },
+          "publicIPAddress": {
+            "id": "string"
+          }
+        },
+        "name": "string"
+      }
+    ],
+    "managementIpConfiguration": {
+      "id": "string",
+      "properties": {
+        "subnet": {
+          "id": "string"
+        },
+        "publicIPAddress": {
+          "id": "string"
+        }
+      },
+      "name": "string"
+    },
+    "threatIntelMode": "string",
+    "virtualHub": {
+      "id": "string"
+    },
+    "firewallPolicy": {
+      "id": "string"
+    },
+    "hubIPAddresses": {
+      "publicIPs": {
+        "addresses": [
+          {
+            "address": "string"
+          }
+        ],
+        "count": "integer"
+      },
+      "privateIPAddress": "string"
+    },
+    "sku": {
+      "name": "string",
+      "tier": "string"
+    },
+    "additionalProperties": {}
+  },
+  "zones": [
+    "string"
+  ]
+}

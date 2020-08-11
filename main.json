@@ -7,7 +7,7 @@
     {
       "type": "Microsoft.Resources/deployments",
       "apiVersion": "2019-10-01",
-      "name": "linkedTemplate",
+      "name": "vwanlinkedTemplate",
       "properties": {
         "mode": "Incremental",
         "templateLink": {
@@ -19,7 +19,7 @@
     {
       "type": "Microsoft.Resources/deployments",
       "apiVersion": "2019-10-01",
-      "name": "linkedTemplate",
+      "name": "policieslinkedTemplate",
       "properties": {
         "mode": "Incremental",
         "templateLink": {
@@ -31,7 +31,7 @@
     {
       "type": "Microsoft.Resources/deployments",
       "apiVersion": "2019-10-01",
-      "name": "linkedTemplate",
+      "name": "logananalyticslinkedTemplate",
       "properties": {
         "mode": "Incremental",
         "templateLink": {

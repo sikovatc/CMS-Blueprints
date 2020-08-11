@@ -15,10 +15,7 @@
           "contentVersion":"1.0.0.0"
         }
       }
-    }
-  ],
-   "resources": [
-    {
+    },
       "type": "Microsoft.Resources/deployments",
       "apiVersion": "2019-10-01",
       "name": "linkedTemplate",
@@ -29,8 +26,7 @@
           "contentVersion":"1.0.0.0"
         }
       }
-    }
-  ],
+    },
   "resources": [
     {
       "type": "Microsoft.Resources/deployments",

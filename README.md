@@ -7,3 +7,6 @@
 
 # Deploy Log Analytics:
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fsikovatc%2FCMS-Blueprints%2Fmaster%2FlogAnalytics.json)
+
+# Deploy Log Analytics:
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fsikovatc%2FCMS-Blueprints%2Fmaster%2Fmain.json)
